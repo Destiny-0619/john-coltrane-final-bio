@@ -1,0 +1,279 @@
+@import url("https://use.typekit.net/xbs4ntm.css");
+ @import url("https://use.typekit.net/ukq5qxb.css");
+ @import url("https://use.typekit.net/ukq5qxb.css");
+
+body{
+  background-color:#FFF3DC;
+}
+
+.topnav {
+  background-color:#fea655;
+  text-align: right;
+}
+
+nav li {
+  display:inline-block;
+  padding:26px 25px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav a {
+  padding:10px 45px;
+  color:#566357;
+  text-decoration: none;
+  font-family: aktiv-grotesk-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:30px;
+}
+
+header { 
+  height:100vh;
+  color:white;
+  background-image: url("images/john-coltrane2.jpg");
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  align-items:left;
+}
+
+header div {
+  padding:150px 75px;
+}
+
+header div h1 {
+  font-size:100px;
+  font-family: aktiv-grotesk-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header div h2 {
+  font-size:50px;
+  line-height:1px;
+  font-family: adonis-web, serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#909473;
+}
+
+section {
+  padding:0px 75px;
+}
+
+.bio-text h1 {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:#566357;
+}
+
+.bio-text p {
+  font-size:25px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.section-2-text p {
+  font-size:25px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.section-2-text button {
+  font-size:45px;
+  border-radius:100px;
+  padding:25px;
+}
+
+.bio h1 {
+  font-size:75px;
+  line-height:5px;
+  color:#566357;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bio-text h2 {
+  color:#fea655;
+  font-size:50px;
+  text-align:right;
+}
+
+.bio h2 {
+  font-size:30px;
+  color:#909473;
+  font-family: adonis-web, serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+hr {
+  border-width:3px;
+  border-style:solid;
+  color:#ffd98e;
+}
+
+.biography {
+  display: flex;
+  gap: 15px;
+}
+
+.biography > div {
+  width: 100%;
+}
+
+.biography img {
+  width:100%;
+  border-radius: 25px;
+}
+
+/*
+.bio-image img {
+  width:627.1px;
+  margin:70px 30px 30px 0;
+  float:left;
+}
+*/
+
+
+
+.biography h1 {
+  font-size:75px;
+  line-height:10px;
+}
+
+/*
+.section1 p {
+  font-size:25px;
+}
+*/
+
+
+.albums {
+  background-size:cover;
+  height:100vh;
+  background-image: url("images/jazz\ texture.jpg");
+  display:flex;
+  justify-content:center;
+  margin-top:25px;
+  padding:100px;
+}
+
+.albums h1 {
+  color:#FFF3DC;
+  margin-top:5px;
+}
+
+.albums img {
+  width:190px;
+  margin-top:150px; 
+}
+
+.album-cards {
+  display:flex;
+  justify-content:center;
+}
+
+.album img {
+  border-radius:25px;
+  height:280px;
+  width:280px;
+  margin:150px 10px 0 10px;
+}
+
+.album {
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius:26px;
+  border:none;
+  background-color:#ffd98e;
+  color:#566357;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding:1rem;
+  margin-bottom:1rem;
+  font-size:25px;
+}
+
+.albums h1 {
+  position:absolute;
+  padding:10px;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:50px;
+}
+
+.awards img {
+  position:absolute;
+  margin-left:800px;
+  height:1700px;
+  width:1395px;
+  image-resolution:400px;
+}
+
+.awards h1 {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:70px;
+  color:#566357;
+}
+
+.awards h2 {
+  color:#909473;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:30px;
+}
+
+.awards h4 {
+  background:#bf563e;
+  padding:30px;
+  color:white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  width:1200px;
+  border-radius:20px;
+  font-size:25px;
+}
+
+.awards hr {
+  width:1500px;
+  margin:0;
+}
+
+footer {
+  background:#1D2A1E;
+  color:#FFD98E;
+  padding:30px 20px;
+  position:relative;
+  left:0;
+  bottom:0;
+  width:100%;
+  text-align:center;
+}
+
+button:hover {
+  background:#e34a27;
+  color:#fea655;
+}
+
+nav a:hover {
+  background:#ffd98e;
+  color:#bf563e;
+  border-radius:25px;
+}
